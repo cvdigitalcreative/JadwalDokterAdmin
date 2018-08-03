@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "573896884462",
+    "firebase_url": "https://apilkasijadwaldokter.firebaseio.com",
+    "project_id": "apilkasijadwaldokter",
+    "storage_bucket": "apilkasijadwaldokter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573896884462:android:fc9072e7d84fa713",
+        "android_client_info": {
+          "package_name": "com.tugasakhir.rido.apilkasijadwaldokter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573896884462-0ppblo04avqe9hg7rl4hk1469pef6vr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugasakhir.rido.apilkasijadwaldokter",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "573896884462-d2gvcp0tnmdsl1lrvu8kev3gl60k2rdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWg4LDGkND2UujpDkCLy5CupdH84bPDrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573896884462-d2gvcp0tnmdsl1lrvu8kev3gl60k2rdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573896884462:android:7ff77ab5546c4a75",
+        "android_client_info": {
+          "package_name": "com.aldo.jadwaldokteradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573896884462-j5qh5gon21jinnv9stthetpr9l5plokf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aldo.jadwaldokteradmin",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "573896884462-d2gvcp0tnmdsl1lrvu8kev3gl60k2rdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWg4LDGkND2UujpDkCLy5CupdH84bPDrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573896884462-d2gvcp0tnmdsl1lrvu8kev3gl60k2rdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
