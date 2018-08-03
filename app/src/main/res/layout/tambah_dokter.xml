@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data Dokter"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_namaDokter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama dokter"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/et_alamatDokter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="alamat dokter"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"/>
+
+            <Spinner
+                android:id="@+id/s_jeniskelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/s_jenisKelamin"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/et_notlpDokter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="no telp"
+                android:inputType="number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumah Sakit Lainnya : "
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_akgani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS AK GANI"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_bunda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="RS BUNDA"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_charitas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS CHARITAS"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_hermina"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS HERMINA"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_muhammadiyah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS MUHAMMADIYAH"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_myria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS MYRIA"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb_pelabuhan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS PELABUHAN"/>
+
+                    <CheckBox
+                        android:id="@+id/cb_siloam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RS SILOAM"/>
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cb_sitikhodija"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RS SITI KHODIJA"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_Simpan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="Simpan"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <Button
+                        android:id="@+id/btn_Kembali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kembali"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_red_dark"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

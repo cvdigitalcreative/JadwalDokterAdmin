@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jadwal Dokter Admin</string>
+    <string-array name="spinnerItem">
+        <item>RSMH</item>
+        <item>RS Charitas</item>
+        <item>Myria</item>
+        <item>RS Bunda</item>
+    </string-array>
+
+    <string-array name="s_keadaanDokter">
+        <item>Keadaan Dokter</item>
+        <item>Ada</item>
+        <item>Tidak Ada</item>
+    </string-array>
+
+    <string-array name="s_jenisKelamin">
+        <item>laki-laki</item>
+        <item>perempuan</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
